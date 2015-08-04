@@ -35,5 +35,5 @@ var app = http.createServer(function(req, res) {
 		res.end();
 	}
 });
-app.listen(3000);
+app.listen(3000, '0.0.0.0');
 console.log("VidStreamer.js up and running on port 3000");
