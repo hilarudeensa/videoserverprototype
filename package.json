@@ -1,0 +1,12 @@
+{
+  "name": "videoserverprototype",
+  "version": "0.0.1",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "mocha test/**.test.js"
+  },
+  "description": "Simple video stream server, used to protype of application.",
+  "dependencies": {
+    "vid-streamer": "^1.0.0"
+  }
+}
